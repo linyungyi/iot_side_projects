@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EEB717F91937264200DB7F5B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEB717F81937264200DB7F5B /* Foundation.framework */; };
+		EEB717FB1937264200DB7F5B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEB717FA1937264200DB7F5B /* CoreGraphics.framework */; };
+		EEB717FD1937264200DB7F5B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEB717FC1937264200DB7F5B /* UIKit.framework */; };
+		EEB718031937264200DB7F5B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EEB718011937264200DB7F5B /* InfoPlist.strings */; };
+		EEB718051937264200DB7F5B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB718041937264200DB7F5B /* main.m */; };
+		EEB718091937264200DB7F5B /* MTKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB718081937264200DB7F5B /* MTKAppDelegate.m */; };
+		EEB7180C1937264200DB7F5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEB7180A1937264200DB7F5B /* Main.storyboard */; };
+		EEB7180F1937264200DB7F5B /* MTKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB7180E1937264200DB7F5B /* MTKViewController.m */; };
+		EEB718111937264200DB7F5B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEB718101937264200DB7F5B /* Images.xcassets */; };
+		EEB718181937264200DB7F5B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEB718171937264200DB7F5B /* XCTest.framework */; };
+		EEB718191937264200DB7F5B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEB717F81937264200DB7F5B /* Foundation.framework */; };
+		EEB7181A1937264200DB7F5B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEB717FC1937264200DB7F5B /* UIKit.framework */; };
+		EEB718221937264200DB7F5B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EEB718201937264200DB7F5B /* InfoPlist.strings */; };
+		EEB718241937264200DB7F5B /* iottestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB718231937264200DB7F5B /* iottestTests.m */; };
+		EEE52DC819372B5100393702 /* libiot.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EEE52DC719372B5100393702 /* libiot.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EEB7181B1937264200DB7F5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEB717ED1937264200DB7F5B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEB717F41937264200DB7F5B;
+			remoteInfo = iottest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EEB717F51937264200DB7F5B /* iottest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iottest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEB717F81937264200DB7F5B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EEB717FA1937264200DB7F5B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EEB717FC1937264200DB7F5B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EEB718001937264200DB7F5B /* iottest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iottest-Info.plist"; sourceTree = "<group>"; };
+		EEB718021937264200DB7F5B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EEB718041937264200DB7F5B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EEB718061937264200DB7F5B /* iottest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iottest-Prefix.pch"; sourceTree = "<group>"; };
+		EEB718071937264200DB7F5B /* MTKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTKAppDelegate.h; sourceTree = "<group>"; };
+		EEB718081937264200DB7F5B /* MTKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTKAppDelegate.m; sourceTree = "<group>"; };
+		EEB7180B1937264200DB7F5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EEB7180D1937264200DB7F5B /* MTKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTKViewController.h; sourceTree = "<group>"; };
+		EEB7180E1937264200DB7F5B /* MTKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTKViewController.m; sourceTree = "<group>"; };
+		EEB718101937264200DB7F5B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EEB718161937264200DB7F5B /* iottestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iottestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEB718171937264200DB7F5B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EEB7181F1937264200DB7F5B /* iottestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iottestTests-Info.plist"; sourceTree = "<group>"; };
+		EEB718211937264200DB7F5B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EEB718231937264200DB7F5B /* iottestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iottestTests.m; sourceTree = "<group>"; };
+		EEE52DC719372B5100393702 /* libiot.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libiot.a; path = "../iot/build/Debug-iphoneos/libiot.a"; sourceTree = "<group>"; };
+		EEE52DC919372F8A00393702 /* SmartConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SmartConnection.h; path = ../../src/SmartConnection.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEB717F21937264200DB7F5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEE52DC819372B5100393702 /* libiot.a in Frameworks */,
+				EEB717FB1937264200DB7F5B /* CoreGraphics.framework in Frameworks */,
+				EEB717FD1937264200DB7F5B /* UIKit.framework in Frameworks */,
+				EEB717F91937264200DB7F5B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEB718131937264200DB7F5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEB718181937264200DB7F5B /* XCTest.framework in Frameworks */,
+				EEB7181A1937264200DB7F5B /* UIKit.framework in Frameworks */,
+				EEB718191937264200DB7F5B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EEB717EC1937264200DB7F5B = {
+			isa = PBXGroup;
+			children = (
+				EEB717FE1937264200DB7F5B /* iottest */,
+				EEB7181D1937264200DB7F5B /* iottestTests */,
+				EEB717F71937264200DB7F5B /* Frameworks */,
+				EEB717F61937264200DB7F5B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EEB717F61937264200DB7F5B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEB717F51937264200DB7F5B /* iottest.app */,
+				EEB718161937264200DB7F5B /* iottestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEB717F71937264200DB7F5B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EEE52DC719372B5100393702 /* libiot.a */,
+				EEB717F81937264200DB7F5B /* Foundation.framework */,
+				EEB717FA1937264200DB7F5B /* CoreGraphics.framework */,
+				EEB717FC1937264200DB7F5B /* UIKit.framework */,
+				EEB718171937264200DB7F5B /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EEB717FE1937264200DB7F5B /* iottest */ = {
+			isa = PBXGroup;
+			children = (
+				EEB718071937264200DB7F5B /* MTKAppDelegate.h */,
+				EEE52DC919372F8A00393702 /* SmartConnection.h */,
+				EEB718081937264200DB7F5B /* MTKAppDelegate.m */,
+				EEB7180A1937264200DB7F5B /* Main.storyboard */,
+				EEB7180D1937264200DB7F5B /* MTKViewController.h */,
+				EEB7180E1937264200DB7F5B /* MTKViewController.m */,
+				EEB718101937264200DB7F5B /* Images.xcassets */,
+				EEB717FF1937264200DB7F5B /* Supporting Files */,
+			);
+			path = iottest;
+			sourceTree = "<group>";
+		};
+		EEB717FF1937264200DB7F5B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EEB718001937264200DB7F5B /* iottest-Info.plist */,
+				EEB718011937264200DB7F5B /* InfoPlist.strings */,
+				EEB718041937264200DB7F5B /* main.m */,
+				EEB718061937264200DB7F5B /* iottest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EEB7181D1937264200DB7F5B /* iottestTests */ = {
+			isa = PBXGroup;
+			children = (
+				EEB718231937264200DB7F5B /* iottestTests.m */,
+				EEB7181E1937264200DB7F5B /* Supporting Files */,
+			);
+			path = iottestTests;
+			sourceTree = "<group>";
+		};
+		EEB7181E1937264200DB7F5B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EEB7181F1937264200DB7F5B /* iottestTests-Info.plist */,
+				EEB718201937264200DB7F5B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEB717F41937264200DB7F5B /* iottest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEB718271937264200DB7F5B /* Build configuration list for PBXNativeTarget "iottest" */;
+			buildPhases = (
+				EEB717F11937264200DB7F5B /* Sources */,
+				EEB717F21937264200DB7F5B /* Frameworks */,
+				EEB717F31937264200DB7F5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iottest;
+			productName = iottest;
+			productReference = EEB717F51937264200DB7F5B /* iottest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EEB718151937264200DB7F5B /* iottestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEB7182A1937264200DB7F5B /* Build configuration list for PBXNativeTarget "iottestTests" */;
+			buildPhases = (
+				EEB718121937264200DB7F5B /* Sources */,
+				EEB718131937264200DB7F5B /* Frameworks */,
+				EEB718141937264200DB7F5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEB7181C1937264200DB7F5B /* PBXTargetDependency */,
+			);
+			name = iottestTests;
+			productName = iottestTests;
+			productReference = EEB718161937264200DB7F5B /* iottestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEB717ED1937264200DB7F5B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MTK;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = mediatek;
+				TargetAttributes = {
+					EEB718151937264200DB7F5B = {
+						TestTargetID = EEB717F41937264200DB7F5B;
+					};
+				};
+			};
+			buildConfigurationList = EEB717F01937264200DB7F5B /* Build configuration list for PBXProject "iottest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EEB717EC1937264200DB7F5B;
+			productRefGroup = EEB717F61937264200DB7F5B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEB717F41937264200DB7F5B /* iottest */,
+				EEB718151937264200DB7F5B /* iottestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEB717F31937264200DB7F5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEB718111937264200DB7F5B /* Images.xcassets in Resources */,
+				EEB718031937264200DB7F5B /* InfoPlist.strings in Resources */,
+				EEB7180C1937264200DB7F5B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEB718141937264200DB7F5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEB718221937264200DB7F5B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEB717F11937264200DB7F5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEB7180F1937264200DB7F5B /* MTKViewController.m in Sources */,
+				EEB718051937264200DB7F5B /* main.m in Sources */,
+				EEB718091937264200DB7F5B /* MTKAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEB718121937264200DB7F5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEB718241937264200DB7F5B /* iottestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EEB7181C1937264200DB7F5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEB717F41937264200DB7F5B /* iottest */;
+			targetProxy = EEB7181B1937264200DB7F5B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EEB718011937264200DB7F5B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEB718021937264200DB7F5B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EEB7180A1937264200DB7F5B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEB7180B1937264200DB7F5B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EEB718201937264200DB7F5B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEB718211937264200DB7F5B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EEB718251937264200DB7F5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"ALWAYS_SEARCH_USER_PATHS[arch=*]" = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EEB718261937264200DB7F5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EEB718281937264200DB7F5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iottest/iottest-Prefix.pch";
+				INFOPLIST_FILE = "iottest/iottest-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/yangyuan/Desktop/IoT/ios/iot/build/Debug-iphoneos",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EEB718291937264200DB7F5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iottest/iottest-Prefix.pch";
+				INFOPLIST_FILE = "iottest/iottest-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/yangyuan/Desktop/IoT/ios/iot/build/Debug-iphoneos",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EEB7182B1937264200DB7F5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iottest.app/iottest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iottest/iottest-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iottestTests/iottestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EEB7182C1937264200DB7F5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iottest.app/iottest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iottest/iottest-Prefix.pch";
+				INFOPLIST_FILE = "iottestTests/iottestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEB717F01937264200DB7F5B /* Build configuration list for PBXProject "iottest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEB718251937264200DB7F5B /* Debug */,
+				EEB718261937264200DB7F5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEB718271937264200DB7F5B /* Build configuration list for PBXNativeTarget "iottest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEB718281937264200DB7F5B /* Debug */,
+				EEB718291937264200DB7F5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEB7182A1937264200DB7F5B /* Build configuration list for PBXNativeTarget "iottestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEB7182B1937264200DB7F5B /* Debug */,
+				EEB7182C1937264200DB7F5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EEB717ED1937264200DB7F5B /* Project object */;
+}

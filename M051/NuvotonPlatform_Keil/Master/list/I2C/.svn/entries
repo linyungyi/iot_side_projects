@@ -1,0 +1,40 @@
+8
+
+dir
+3798
+http://10.130.249.105/svn/PT50/clyu2/NUC100/ISP/M051/NuvotonPlatform_Keil/Master/list/I2C
+http://10.130.249.105/svn
+
+
+
+2011-02-18T00:53:01.593750Z
+3798
+clyu2
+
+
+svn:special svn:externals svn:needs-lock
+
+image.lst
+file
+
+
+
+
+2011-01-26T08:49:59.683177Z
+6c39d634ca8d9862705159dcc7e8850d
+2011-02-18T00:53:01.593750Z
+3798
+clyu2
+
+startup_NUC1xx.lst
+file
+
+
+
+
+2011-01-26T08:49:59.745607Z
+7c10ce3c7c7e9941bd271ade81921b50
+2011-02-18T00:53:01.593750Z
+3798
+clyu2
+

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/3798/PT50/clyu2/NUC100/ISP/M051/NuvotonPlatform_Keil/Master/list/I2C
+END
+image.lst
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/3798/PT50/clyu2/NUC100/ISP/M051/NuvotonPlatform_Keil/Master/list/I2C/image.lst
+END
+startup_NUC1xx.lst
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/3798/PT50/clyu2/NUC100/ISP/M051/NuvotonPlatform_Keil/Master/list/I2C/startup_NUC1xx.lst
+END

@@ -1,0 +1,25 @@
+*** Creating Trace Output File '.\obj\SRAM\ISP.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\obj\core_cm0.o"'
+### List of Objects: adding '".\obj\system_m05xx.o"'
+### List of Objects: adding '".\obj\startup_m05xx.o"'
+### List of Objects: adding '".\obj\drvi2c.o"'
+### List of Objects: adding '".\obj\fmc.o"'
+### List of Objects: adding '".\obj\main.o"'
+### List of Objects: adding '".\obj\retarget_printf.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M0 ".\obj\core_cm0.o" ".\obj\system_m05xx.o" ".\obj\startup_m05xx.o" ".\obj\drvi2c.o" ".\obj\fmc.o" ".\obj\main.o" ".\obj\retarget_printf.o" --library_type=microlib --ro-base 0x00000000 --entry 0x00000000 --rw-base 0x20000000 --entry Reset_Handler --first __Vectors --feedback ".\obj\SRAM\ISP.fed" 
+--strict --map --datacompressor=off --info=inline --entry Reset_Handler --autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\list\SRAM\ISP.map" -o ".\obj\SRAM\ISP.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\obj\SRAM\ISP.axf'
+### ADS-LD Command File: '.\obj\SRAM\ISP.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\obj\SRAM\ISP.lnp', Handle=0x00000328
+### Writing '.lnp' file
+### ADS-LD Command file '.\obj\SRAM\ISP.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

@@ -1,0 +1,27 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+D:\NUC100\ISP\ISP_ver2.1_autodetect\Release\M051\NuvotonPlatform_Keil\ISP\I2C\ISP.uvproj
+Project File Date:  03/02/2011
+
+<h2>Output:</h2>
+Build target 'I2C_ISP'
+compiling core_cm0.c...
+compiling system_M05xx.c...
+assembling startup_M05xx.s...
+compiling DrvI2C.c...
+compiling FMC.c...
+compiling main.c...
+main.c(336): warning:  #177-D: variable "ckstart" was declared but never referenced
+main.c:         uint32_t        lcmd, packno, srclen, cktotallen, ckstart, i, regcnf0, security;
+main.c:                                                           ^
+main.c: main.c: 1 warning, 0 errors
+compiling retarget_printf.c...
+linking...
+Program Size: Code=3560 RO-data=224 RW-data=12 ZI-data=1732  
+User command #1: fromelf --bin ".\obj\SRAM\ISP.axf" --output ".\obj\SRAM\ISP.bin"
+".\obj\SRAM\ISP.axf" - 0 Error(s), 1 Warning(s).
+Clean started: Project: 'ISP'
+   deleting intermediate output files for target 'I2C_ISP'

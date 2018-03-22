@@ -1,0 +1,18 @@
+; MyHidLib.def : 宣告 DLL 的模組參數。
+
+LIBRARY      "MyHidLib"
+
+EXPORTS
+    ; 明確匯出可置於此
+    OpenDeviceUsb
+    InitDevice
+    ReadData
+    WriteData
+    CloseDeviceUsb
+    CmdToDo
+    getHexConfig
+    isDataInSending
+    getErrorCode
+    setErrorCode
+    GetFileInfo
+    getDataFileSize
